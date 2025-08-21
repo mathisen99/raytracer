@@ -1,0 +1,9 @@
+Implementing shadows in a Rust ray tracer involves checking for intersections between rays and objects in the scene. Here's a step-by-step guide on how to do it:
+
+1. Start by setting up your ray tracer with a basic scene, including objects, lights, and a camera.
+
+2. For each pixel in the image, generate a primary ray from the camera's position through the pixel.
+
+3. Iterate over all the lights in the scene. For each light, perform the following steps:
+
+4.
